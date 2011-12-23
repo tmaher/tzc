@@ -520,7 +520,7 @@ void subscribe_with_zctl() {
   if(!(pid = fork())) {
       char fn[1024];
       sprintf(fn,"%s/.zephyr.subs.tzc",getenv("HOME"));
-      execlp(ZCTL_BINARY,"zctl","load",fn,0);
+      execlp(ZCTL_BINARY,"zctl","load",fn,NULL);
       perror("zctl exec");
       fprintf(stderr,"Unable to load subscriptions.\n");
       bail(0);
@@ -668,7 +668,7 @@ emacs_error(char *err)
    reentry = 0;
 }
 
-static void tzc_com_err_hook(const char *whoami, int errcode, 
+static void tzc_com_err_hook(const char *whoami, long errcode, 
 			     const char *fmt, va_list ap)
 {
     char buf1[4096], errmsg[4096];
@@ -1244,6 +1244,7 @@ handle_set_location(Value *setloc_cmd)
 
  fail:
    /* nothing to do */
+   return;
 }
 
 
