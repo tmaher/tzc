@@ -1,0 +1,4 @@
+*.o
+core
+tzc
+tzc.new
