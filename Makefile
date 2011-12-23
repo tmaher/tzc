@@ -1,6 +1,6 @@
 # Configure as appropriate.
 
-KERB_LIBS = -lkrb -lkrb5 -lcom_err
+KERB_LIBS = -lkrb5 -lcom_err
 ZEPHYR_LIBS = -lzephyr
 
 DESTDIR = 
