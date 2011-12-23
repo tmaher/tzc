@@ -1,0 +1,7 @@
+tzc for Debian
+--------------
+
+This is the CMU Computer Club package of tzc.
+
+This is based on the official debian tzc package, but zlocate 
+support has been added (patches stolen from zml@zml.net).

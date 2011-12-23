@@ -1,0 +1,40 @@
+M-x zephyr-new-buffer
+	starts a new zephyr buffer
+
+C-c C-s
+	change recipient
+M-p
+M-n
+	cycle forward or backward through recipient list
+
+C-j
+	send current zephyr
+
+C-h m
+	Describe mode (with some keybindings)
+
+C-c C-d
+	delete messages from a user or class/instance
+
+C-c C-r
+	restart receiver
+
+M-x zephyr-ignore-sender-temporarily
+	ignore zephyrs from a user for some length of time
+
+M-x zephyr-ignore-instance-temporarily
+	ignore zephyrs from an instance for some length of time.
+	basically a timed punt.
+
+Syntax:
+-------
+
+sending to a user:
+username
+
+sending to an instance of class MESSAGE:
+(instance)
+
+sending to a different class:
+(class:instance)
+	like (advisor:graffiti), for example.

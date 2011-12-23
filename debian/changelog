@@ -1,0 +1,18 @@
+tzc (2.6.16-3+cclub.001) unstable; urgency=low
+
+  * Changed makefile to link against ckauth, which may or may not be good.
+ 
+ -- Aaron Solochek <aarons@aberrant.org>  Thu, 12 Sep 2005 15:16:00 -0500
+
+tzc (2.6.16-2+cclub.001) unstable; urgency=high
+
+  * Fixed a horrible memory corruption bug.
+  * Fixed bug with disabling heartbeat.
+
+ -- Aaron Solochek <aarons@aberrant.org>  Thu, 18 Aug 2005 09:24:00 -0500
+
+tzc (2.6.16-1+cclub.001) unstable; urgency=low
+
+  * Rebuild of tzc-cclub with new versioning
+
+ -- Aaron Solochek <aarons@aberrant.org>  Fri, 10 Dec 2004 13:50:26 -0600

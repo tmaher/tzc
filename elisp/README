@@ -1,0 +1,24 @@
+Included here are a few different versions of the emacs zephyr setup.
+
+The version of choice is 'lounge-zephyr-setup.el,' so that is the what
+these instructions will help you run.
+
+To run xemacs in zephyr mode, there are 3 steps:
+
+1) add the following to you ~/.xemacs/init.el:
+
+(setq load-path (append (list                                                   
+                         "/usr/share/tzc")                                      
+                         load-path))                                            
+                                                                                
+(load "lounge-zephyr-setup.el")
+
+
+2) copy /usr/share/tzc/zephyr-options.el to ~/.zephyr-options.el
+
+
+3) edit ~/.zephyr-options.el and fill in your personal info
+
+
+Then invoke xemacs as 'xemacs -f zephyr-dual' or run 
+'M-x zephyr-dual' after you're already in emacs.

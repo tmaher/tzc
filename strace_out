@@ -1,0 +1,840 @@
+execve("./tzc", ["./tzc", "-s", "-e", "NET-ANNOUNCED", "-t", "0", "2"], [/* 18 vars */]) = 0
+uname({sys="Linux", node="sausage", ...}) = 0
+brk(0)                                  = 0x804f3a0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40017000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.preload", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libzephyr.so.3", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libzephyr.so.3", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libzephyr.so.3", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("cmov/libzephyr.so.3", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("libzephyr.so.3", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/i686/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/i686/mmx/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/i686/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/i686/mmx", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/i686/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/i686/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/i686/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/i686", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/mmx/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/mmx", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/tls/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/tls", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/i686/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/i686/mmx/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/i686/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/i686/mmx", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/i686/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/i686/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/i686/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/i686", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/mmx/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/mmx/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/mmx/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/mmx", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/cmov/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib/cmov", 0xbfffed38) = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libzephyr.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat64("/usr/local/java2/lib", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=57420, ...}) = 0
+old_mmap(NULL, 57420, PROT_READ, MAP_PRIVATE, 4, 0) = 0x40018000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libzephyr.so.3", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0h0\0\000"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=63756, ...}) = 0
+old_mmap(NULL, 98144, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x40027000
+old_mmap(0x40036000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0xe000) = 0x40036000
+old_mmap(0x40038000, 28512, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40038000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libkrb.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libkrb.so.1", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("tls/cmov/libkrb.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libkrb.so.1", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libkrb.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("i686/cmov/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libkrb.so.1", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libkrb.so.1", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("mmx/libkrb.so.1", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("cmov/libkrb.so.1", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libkrb.so.1", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libkrb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libkrb.so.1", O_RDONLY)  = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0pS\0\000"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=102152, ...}) = 0
+old_mmap(NULL, 117844, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4003f000
+old_mmap(0x40056000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x17000) = 0x40056000
+old_mmap(0x40058000, 15444, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x40058000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libkrb5.so.17", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libkrb5.so.17", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libkrb5.so.17", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("cmov/libkrb5.so.17", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("libkrb5.so.17", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libkrb5.so.17", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libkrb5.so.17", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\327"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=250972, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4005c000
+old_mmap(NULL, 255056, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4005d000
+old_mmap(0x40099000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x3b000) = 0x40099000
+old_mmap(0x4009b000, 1104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4009b000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libcom_err.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libcom_err.so.2", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libcom_err.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("cmov/libcom_err.so.2", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("libcom_err.so.2", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libcom_err.so.2", O_RDONLY)  = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220\n\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=6116, ...}) = 0
+old_mmap(NULL, 9216, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4009c000
+old_mmap(0x4009e000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x1000) = 0x4009e000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libc.so.6", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libc.so.6", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("tls/cmov/libc.so.6", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("tls/libc.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libc.so.6", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("i686/cmov/libc.so.6", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("i686/libc.so.6", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libc.so.6", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("mmx/libc.so.6", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("cmov/libc.so.6", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("libc.so.6", O_RDONLY)             = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libc.so.6", O_RDONLY)        = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360^\1"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0755, st_size=1244688, ...}) = 0
+old_mmap(NULL, 1254852, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4009f000
+old_mmap(0x401c7000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x127000) = 0x401c7000
+old_mmap(0x401cf000, 9668, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x401cf000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("cmov/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libcrypto.so.0.9.7", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libcrypto.so.0.9.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/i686/cmov/libcrypto.so.0.9.7", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\300\2"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1029672, ...}) = 0
+old_mmap(NULL, 1043608, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x401d2000
+old_mmap(0x402bc000, 73728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0xea000) = 0x402bc000
+old_mmap(0x402ce000, 11416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x402ce000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libcrypt.so.1", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libcrypt.so.1", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libcrypt.so.1", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("cmov/libcrypt.so.1", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("libcrypt.so.1", O_RDONLY)         = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libcrypt.so.1", O_RDONLY)    = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\0\n\0\000"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=18780, ...}) = 0
+old_mmap(NULL, 181596, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x402d1000
+old_mmap(0x402d6000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x4000) = 0x402d6000
+old_mmap(0x402d7000, 157020, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x402d7000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libresolv.so.2", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libresolv.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libresolv.so.2", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("cmov/libresolv.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("libresolv.so.2", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libresolv.so.2", O_RDONLY)   = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\240)\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=64924, ...}) = 0
+old_mmap(NULL, 73640, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x402fe000
+old_mmap(0x4030d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0xf000) = 0x4030d000
+old_mmap(0x4030e000, 8104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x4030e000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libasn1.so.6", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libasn1.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libasn1.so.6", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libasn1.so.6", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("cmov/libasn1.so.6", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("libasn1.so.6", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libasn1.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libasn1.so.6", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\360S\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=158316, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40310000
+old_mmap(NULL, 157288, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x40311000
+old_mmap(0x40337000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x26000) = 0x40337000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libroken.so.16", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libroken.so.16", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libroken.so.16", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("cmov/libroken.so.16", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("libroken.so.16", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libroken.so.16", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libroken.so.16", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\320;\0"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=68776, ...}) = 0
+old_mmap(NULL, 72016, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x40338000
+old_mmap(0x40349000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x10000) = 0x40349000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libdl.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libdl.so.2", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("tls/cmov/libdl.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("tls/libdl.so.2", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libdl.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("i686/cmov/libdl.so.2", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("i686/libdl.so.2", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libdl.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("mmx/libdl.so.2", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("cmov/libdl.so.2", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("libdl.so.2", O_RDONLY)            = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libdl.so.2", O_RDONLY)       = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0p\34\0\000"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=9872, ...}) = 0
+old_mmap(NULL, 8632, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4034a000
+old_mmap(0x4034c000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x2000) = 0x4034c000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libdb-4.1.so", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libdb-4.1.so", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libdb-4.1.so", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libdb-4.1.so", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("cmov/libdb-4.1.so", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("libdb-4.1.so", O_RDONLY)          = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libdb-4.1.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libdb-4.1.so", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200H\1"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=789512, ...}) = 0
+old_mmap(NULL, 788892, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4034d000
+old_mmap(0x4040c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0xbf000) = 0x4040c000
+close(4)                                = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040e000
+munmap(0x40018000, 57420)               = 0
+time(NULL)                              = 1125402363
+getpid()                                = 31141
+brk(0)                                  = 0x804f3a0
+brk(0x80703a0)                          = 0x80703a0
+brk(0)                                  = 0x80703a0
+brk(0x8071000)                          = 0x8071000
+getpid()                                = 31141
+fstat64(1, {st_mode=S_IFREG|0664, st_size=27865, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40018000
+time(NULL)                              = 1125402363
+open("/etc/localtime", O_RDONLY)        = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=1267, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40019000
+read(4, "TZif\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0\4\0"..., 4096) = 1267
+close(4)                                = 0
+munmap(0x40019000, 4096)                = 0
+write(1, "; tzc is free software and you a"..., 278; tzc is free software and you are welcome to distribute copies
+; of it under certain conditions; see the source code for details.
+; Version 2.6.16
+; Copyright 1992, 1993 Scott Draves
+; Copyright 1994, 1995, 1996, 1998, 2000 Darrell Kindred
+; Started: Tue Aug 30 07:46:03 2005
+
+) = 278
+rt_sigaction(SIGUSR1, {0x8049c59, [USR1], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+rt_sigaction(SIGALRM, {0x8049c59, [ALRM], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+rt_sigaction(SIGINT, {0x8049c8e, [INT], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+rt_sigaction(SIGHUP, {0x8049c8e, [HUP], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+rt_sigaction(SIGTERM, {0x8049c8e, [TERM], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+rt_sigaction(SIGQUIT, {0x8049c8e, [QUIT], SA_RESTORER|SA_RESTART, 0x400c86f8}, {SIG_DFL}, 8) = 0
+fcntl64(0, F_GETFL)                     = 0x8002 (flags O_RDWR|O_LARGEFILE)
+fcntl64(0, F_SETFL, O_RDWR|O_NONBLOCK|O_LARGEFILE) = 0
+open("/etc/nsswitch.conf", O_RDONLY)    = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=465, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x40019000
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 465
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x40019000, 4096)                = 0
+open("tls/i686/mmx/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libnss_db.so.2", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libnss_db.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libnss_db.so.2", O_RDONLY)    = -1 ENOENT (No such file or directory)
+open("cmov/libnss_db.so.2", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("libnss_db.so.2", O_RDONLY)        = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libnss_db.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY)      = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=57420, ...}) = 0
+old_mmap(NULL, 57420, PROT_READ, MAP_PRIVATE, 4, 0) = 0x4040f000
+close(4)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_db.so.2", O_RDONLY)   = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\200\23"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=17860, ...}) = 0
+old_mmap(NULL, 17092, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x40019000
+old_mmap(0x4001d000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x4000) = 0x4001d000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("mmx/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("cmov/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("libnss_files.so.2", O_RDONLY)     = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libnss_files.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/libnss_files.so.2", O_RDONLY) = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\220\35"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=34520, ...}) = 0
+old_mmap(NULL, 33720, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4001e000
+old_mmap(0x40026000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0x8000) = 0x40026000
+close(4)                                = 0
+open("tls/i686/mmx/cmov/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/mmx/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/cmov/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/i686/libdb3.so.3", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/mmx/cmov/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("tls/mmx/libdb3.so.3", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("tls/cmov/libdb3.so.3", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("tls/libdb3.so.3", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("i686/mmx/cmov/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/mmx/libdb3.so.3", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("i686/cmov/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("i686/libdb3.so.3", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("mmx/cmov/libdb3.so.3", O_RDONLY)  = -1 ENOENT (No such file or directory)
+open("mmx/libdb3.so.3", O_RDONLY)       = -1 ENOENT (No such file or directory)
+open("cmov/libdb3.so.3", O_RDONLY)      = -1 ENOENT (No such file or directory)
+open("libdb3.so.3", O_RDONLY)           = -1 ENOENT (No such file or directory)
+open("/usr/local/java2/lib/libdb3.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libdb3.so.3", O_RDONLY)  = 4
+read(4, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0\3\0\1\0\0\0\340\311"..., 512) = 512
+fstat64(4, {st_mode=S_IFREG|0644, st_size=692456, ...}) = 0
+old_mmap(NULL, 696044, PROT_READ|PROT_EXEC, MAP_PRIVATE, 4, 0) = 0x4041e000
+old_mmap(0x404c7000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 4, 0xa8000) = 0x404c7000
+close(4)                                = 0
+munmap(0x4040f000, 57420)               = 0
+open("/var/lib/misc/services.db", O_RDWR|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/var/lib/misc/services.db", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/etc/services", O_RDONLY)         = 4
+fcntl64(4, F_GETFD)                     = 0
+fcntl64(4, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(4, {st_mode=S_IFREG|0644, st_size=17571, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(4, "# Network services, Internet sty"..., 4096) = 4096
+read(4, "zis\t\t206/udp\nqmtp\t\t209/tcp\t\t\t\t# "..., 4096) = 4096
+read(4, "usnote\t1352/udp\tlotusnotes\nms-sq"..., 4096) = 4096
+read(4, "        13724/udp\nbpcd          "..., 4096) = 4096
+close(4)                                = 0
+munmap(0x4040f000, 4096)                = 0
+getuid32()                              = 0
+geteuid32()                             = 0
+getgid32()                              = 0
+getegid32()                             = 0
+open("/etc/krb5.conf", O_RDONLY|O_LARGEFILE) = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=9807, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(4, "[libdefaults]\n#default_realm=AND"..., 4096) = 4096
+read(4, "       \t\tkdc = t-dc1.nt.cmu.edu\n"..., 4096) = 4096
+read(4, "du       = ANDREW.CMU.EDU\n\t.csw."..., 4096) = 1615
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x4040f000, 4096)                = 0
+getuid32()                              = 0
+geteuid32()                             = 0
+getgid32()                              = 0
+getegid32()                             = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 4
+setsockopt(4, SOL_SOCKET, SO_BSDCOMPAT, [1], 4) = 0
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(53536), sin_addr=inet_addr("0.0.0.0")}, [16]) = 0
+open("/var/lib/misc/services.db", O_RDWR|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/var/lib/misc/services.db", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+open("/etc/services", O_RDONLY)         = 5
+fcntl64(5, F_GETFD)                     = 0
+fcntl64(5, F_SETFD, FD_CLOEXEC)         = 0
+fstat64(5, {st_mode=S_IFREG|0644, st_size=17571, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(5, "# Network services, Internet sty"..., 4096) = 4096
+read(5, "zis\t\t206/udp\nqmtp\t\t209/tcp\t\t\t\t# "..., 4096) = 4096
+read(5, "usnote\t1352/udp\tlotusnotes\nms-sq"..., 4096) = 4096
+read(5, "        13724/udp\nbpcd          "..., 4096) = 4096
+close(5)                                = 0
+munmap(0x4040f000, 4096)                = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(53536), sin_addr=inet_addr("0.0.0.0")}, [16]) = 0
+gettimeofday({1125402363, 470250}, NULL) = 0
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000008\0000x"..., 175, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, 16) = 175
+select(5, [4], NULL, NULL, {10, 0})     = 1 (in [4], left {10, 0})
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000003\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, [16]) = 300
+time([1125402363])                      = 1125402363
+gettimeofday({1125402363, 471083}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+close(4)                                = 0
+gettimeofday({1125402363, 471322}, NULL) = 0
+getpid()                                = 31141
+open("/etc/resolv.conf", O_RDONLY)      = 4
+fstat64(4, {st_mode=S_IFREG|0644, st_size=191, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(4, "search aberrant.org club.cc.cmu."..., 4096) = 191
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x4040f000, 4096)                = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(4, [{"\2\0\0\0\4\0\0\0\30\0\0\0", 12}, {"zephyr1.club.cc.cmu.edu\0", 24}], 2) = 36
+read(4, "\2\0\0\0\1\0\0\0\30\0\0\0\0\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(4, [{"zephyr1.club.cc.cmu.edu\0", 24}, {"", 0}, {"\200\355\235\17", 4}], 3) = 28
+read(4, NULL, 0)                        = 0
+close(4)                                = 0
+getuid32()                              = 0
+open("/etc/krb.realms", O_RDONLY)       = 4
+fstat64(4, {st_mode=S_IFREG|0755, st_size=4396, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(4, ".ANDREW.CMU.EDU ANDREW.CMU.EDU\nA"..., 4096) = 4096
+close(4)                                = 0
+munmap(0x4040f000, 4096)                = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 4
+connect(4, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(4, [{"\2\0\0\0\4\0\0\0\30\0\0\0", 12}, {"zephyr1.club.cc.cmu.edu\0", 24}], 2) = 36
+read(4, "\2\0\0\0\1\0\0\0\30\0\0\0\0\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(4, [{"zephyr1.club.cc.cmu.edu\0", 24}, {"", 0}, {"\200\355\235\17", 4}], 3) = 28
+read(4, NULL, 0)                        = 0
+close(4)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET, sin_port=htons(2105), sin_addr=inet_addr("128.237.157.15")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(53536), sin_addr=inet_addr("128.237.157.37")}, [16]) = 0
+close(4)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=143, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 4
+flock(4, LOCK_SH|LOCK_NB)               = 0
+read(4, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 143
+flock(4, LOCK_UN)                       = 0
+close(4)                                = 0
+socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 4
+setsockopt(4, SOL_SOCKET, SO_BSDCOMPAT, [1], 4) = 0
+bind(4, {sa_family=AF_INET, sin_port=htons(0), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+getsockname(4, {sa_family=AF_INET, sin_port=htons(53536), sin_addr=inet_addr("0.0.0.0")}, [16]) = 0
+getuid32()                              = 0
+open("/tmp/wg.0", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 5
+fstat64(5, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+write(5, "8401\n", 5)                   = 5
+close(5)                                = 0
+munmap(0x4040f000, 4096)                = 0
+fork()                                  = 31142
+wait4(-1, NULL, 0, NULL)                = 31142
+--- SIGCHLD (Child exited) @ 0 (0) ---
+open("/tmp/wg.0", O_RDONLY)             = 5
+fstat64(5, {st_mode=S_IFREG|0664, st_size=5, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(5, "8401\n", 4096)                 = 5
+close(5)                                = 0
+munmap(0x4040f000, 4096)                = 0
+uname({sys="Linux", node="sausage", ...}) = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\4\0\0\0\10\0\0\0", 12}, {"sausage\0", 8}], 2) = 20
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+ioctl(0, SNDCTL_TMR_TIMEBASE or TCGETS, {B38400 opost isig icanon echo ...}) = 0
+readlink("/proc/self/fd/0", "/dev/pts/10", 4095) = 11
+time(NULL)                              = 1125402363
+gettimeofday({1125402363, 871948}, NULL) = 0
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 300, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, 16) = 300
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+gettimeofday({1125402363, 872153}, NULL) = 0
+select(5, [4], NULL, NULL, {10, 0})     = 1 (in [4], left {10, 0})
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000003\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, [16]) = 240
+time([1125402363])                      = 1125402363
+gettimeofday({1125402363, 872645}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+gettimeofday({1125402363, 872841}, NULL) = 0
+select(5, [4], NULL, NULL, {30, 0})     = 1 (in [4], left {30, 0})
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000006\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, [16]) = 245
+time([1125402363])                      = 1125402363
+gettimeofday({1125402363, 876963}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+uname({sys="Linux", node="sausage", ...}) = 0
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\4\0\0\0\10\0\0\0", 12}, {"sausage\0", 8}], 2) = 20
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+getuid32()                              = 0
+open("/tmp/wg.0", O_RDONLY)             = 5
+fstat64(5, {st_mode=S_IFREG|0664, st_size=5, ...}) = 0
+old_mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x4040f000
+read(5, "8401\n", 4096)                 = 5
+close(5)                                = 0
+munmap(0x4040f000, 4096)                = 0
+time(NULL)                              = 1125402363
+gettimeofday({1125402363, 877912}, NULL) = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402363, 878458}, NULL) = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402363, 879495}, NULL) = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 627, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, 16) = 627
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000003\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, [16]) = 564
+time([1125402363])                      = 1125402363
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402363, 880745}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+gettimeofday({1125402363, 880903}, NULL) = 0
+select(5, [4], NULL, NULL, {30, 0})     = 1 (in [4], left {30, 0})
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000005\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2104), sin_addr=inet_addr("127.0.0.1")}, [16]) = 566
+time([1125402363])                      = 1125402363
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402363, 882208}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+getpid()                                = 31141
+time(NULL)                              = 1125402363
+write(1, "; heartbeat period = 0\n\1((tzcspe"..., 239; heartbeat period = 0
+((tzcspew . start) (version . "2.6.16") (pid . 31141) (zephyrid . "aarons@CLUB.CC.CMU.EDU") (exposure . "NET-ANNOUNCED") (heartbeat . nil) (heartbeat_rate . 0) (time . "Tue Aug 30 07:46:03 2005") (features . ()) ) 
+) = 239
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [0 4], NULL, NULL, NULL)      = 1 (in [4])
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, [16]) = 310
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000007\0000x"..., 310, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, 16) = 310
+time([1125402364])                      = 1125402364
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402364, 779160}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\6\0\0\0\4\0\0\0", 12}, {"\200\355\235%", 4}], 2) = 16
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+gettimeofday({1125402364, 779855}, NULL) = 0
+write(1, "\1((tzcspew . message) (kind . ac"..., 312((tzcspew . message) (kind . acked) (class . MESSAGE) (instance . "PERSONAL") (opcode . PING) (sender . "aarons") (recipient . "aarons") (port . 8657) (auth . yes) (time . "Tue Aug 30 07:46:04 2005") (time-secs . (17172 18172 776449)) (latency . "0.00") (fromhost . "sausage.club.cc.cmu.edu") (message . ()) ) 
+) = 312
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+time(NULL)                              = 1125402364
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [0 4], NULL, NULL, NULL)      = 1 (in [4])
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, [16]) = 322
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000007\0000x"..., 307, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, 16) = 307
+time([1125402366])                      = 1125402366
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=253, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 253
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402366, 325497}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\6\0\0\0\4\0\0\0", 12}, {"\200\355\235%", 4}], 2) = 16
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+gettimeofday({1125402366, 326092}, NULL) = 0
+write(1, "\1((tzcspew . message) (kind . ac"..., 331((tzcspew . message) (kind . acked) (class . MESSAGE) (instance . "PERSONAL") (opcode . nil) (sender . "aarons") (recipient . "aarons") (port . 8657) (auth . yes) (time . "Tue Aug 30 07:46:06 2005") (time-secs . (17172 18174 322658)) (latency . "0.00") (fromhost . "sausage.club.cc.cmu.edu") (message . ("life sucks" "foo
+" )) ) 
+) = 331
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+time(NULL)                              = 1125402366
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [0 4], NULL, NULL, NULL)      = 1 (in [4])
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, [16]) = 310
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000007\0000x"..., 310, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, 16) = 310
+time([1125402371])                      = 1125402371
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=143, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 143
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402371, 107460}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\6\0\0\0\4\0\0\0", 12}, {"\200\355\235%", 4}], 2) = 16
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+gettimeofday({1125402371, 108108}, NULL) = 0
+write(1, "\1((tzcspew . message) (kind . ac"..., 311((tzcspew . message) (kind . acked) (class . MESSAGE) (instance . "PERSONAL") (opcode . PING) (sender . "aarons") (recipient . "aarons") (port . 8657) (auth . no) (time . "Tue Aug 30 07:46:11 2005") (time-secs . (17172 18179 103928)) (latency . "0.00") (fromhost . "sausage.club.cc.cmu.edu") (message . ()) ) 
+) = 311
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+time(NULL)                              = 1125402371
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [0 4], NULL, NULL, NULL)      = 1 (in [4])
+select(5, [4], NULL, NULL, {0, 0})      = 1 (in [4], left {0, 0})
+select(5, [4], NULL, NULL, {60, 0})     = 1 (in [4], left {60, 0})
+recvfrom(4, "ZEPH0.2\0000x00000011\0000x00000002\0000x"..., 1024, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, [16]) = 322
+sendto(4, "ZEPH0.2\0000x00000011\0000x00000007\0000x"..., 307, 0, {sa_family=AF_INET, sin_port=htons(2103), sin_addr=inet_addr("128.237.157.15")}, 16) = 307
+time([1125402372])                      = 1125402372
+lstat64("/tmp/tkt_2zhI0N", {st_mode=S_IFREG|0600, st_size=143, ...}) = 0
+getuid32()                              = 0
+open("/tmp/tkt_2zhI0N", O_RDONLY)       = 5
+flock(5, LOCK_SH|LOCK_NB)               = 0
+read(5, "aarons\0\0krbtgt\0CLUB.CC.CMU.EDU\0C"..., 8192) = 143
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+gettimeofday({1125402372, 766372}, NULL) = 0
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+socket(PF_FILE, SOCK_STREAM, 0)         = 5
+connect(5, {sa_family=AF_FILE, path="/var/run/.nscd_socket"}, 110) = 0
+writev(5, [{"\2\0\0\0\6\0\0\0\4\0\0\0", 12}, {"\200\355\235%", 4}], 2) = 16
+read(5, "\2\0\0\0\1\0\0\0\30\0\0\0\2\0\0\0\2\0\0\0\4\0\0\0\1\0\0"..., 32) = 32
+readv(5, [{"sausage.club.cc.cmu.edu\0", 24}, {"\25\0\0\0\10\0\0\0", 8}, {"\200\355\235%", 4}], 3) = 36
+read(5, "sausage.aberrant.org\0sausage\0", 29) = 29
+close(5)                                = 0
+gettimeofday({1125402372, 767214}, NULL) = 0
+write(1, "\1((tzcspew . message) (kind . ac"..., 330((tzcspew . message) (kind . acked) (class . MESSAGE) (instance . "PERSONAL") (opcode . nil) (sender . "aarons") (recipient . "aarons") (port . 8657) (auth . no) (time . "Tue Aug 30 07:46:12 2005") (time-secs . (17172 18180 763728)) (latency . "0.00") (fromhost . "sausage.club.cc.cmu.edu") (message . ("life sucks" "bar
+" )) ) 
+) = 330
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+time(NULL)                              = 1125402372
+select(5, [4], NULL, NULL, {0, 0})      = 0 (Timeout)
+select(5, [0 4], NULL, NULL, NULL <unfinished ...>
+
+; tzc killed
+;;;

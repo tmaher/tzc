@@ -1,0 +1,79 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH TZC 1 "July 15, 2002"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+tzc \- trivial zephyr client
+.SH SYNOPSIS
+.B tzc
+.RI [ options ] 
+.SH DESCRIPTION
+.B Tzc
+is a zephyr client program which talks to the zephyr servers (via the
+"zephyr host manager") and to a gnu/x-emacs running zephyr-mode.
+.SH OPTIONS
+A summary of options is included below.
+.TP
+.BI \-a " nseconds"
+Restart tzc every 
+.I nseconds
+seconds.
+.TP
+.BI \-e " exposure"
+Set exposure.  (values: NONE, OPSTAFF, REALM-VISIBLE, REALM-ANNOUNCED, 
+NET-VISIBLE, NET-ANNOUNCED)
+.TP
+.BI \-l, " location"
+Set zlocation tty to the string
+.IR location .
+The default is tzc.n, where n is tzc's pid.
+.TP
+.BI \-h, " hostname"
+Set zlocation hostname to the string
+.IR hostname .
+The default is the current hosts hostname.
+.TP
+.BI \-p " filename"
+Write tzc's process-id to the file
+.IR filename .
+.TP
+.B \-s
+Use zctl for subscriptions (read from ~/zephyr.subs.tzc)
+.TP
+.BI \-t " nseconds"
+If no zephyrgrams arrive in
+.I nseconds
+seconds, send a test message to mkae sure we're alive.  If
+.I nseconds
+is zero, disable this feature.  Default is 300 seconds.
+.TP
+.B \-o
+Run tzc in output-only mode.  Tzc will just print zephyrgrams, and not
+accept commands from stdin
+.TP
+.B \-i
+Ignore eof on input
+.TP
+.B \-d
+Print debugging information.
+.SH SEE ALSO
+.BR zephyr (1),
+.BR zwgc (1),
+.BR zwrite (1),
+.BR zctl (1)
+.SH AUTHOR
+This manual page was written by Theodore Ts'o <tytso@mit.edu>,
+for the Debian GNU/Linux system (but may be used by others).

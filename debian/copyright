@@ -1,0 +1,19 @@
+This package was debianized by Theodore Ts'o <tytso@mit.edu> on
+Mon, 15 Jul 2002 09:07:11 -0400.
+
+It was downloaded from:
+
+     http://www-2.cs.cmu.edu/People/dkindred/zephyr-mode/tzc-2.6.15.tar.gz
+
+Upstream Author(s): Darrell Kindred <dkindred@cs.cmu.edu>
+
+Copyright:
+
+Copyright (C) 1992, 1993 Scott Draves (spot@cs.cmu.edu)
+Copyright (C) 1994, 1995, 1996, 1998 Darrell Kindred (dkindred@cs.cmu.edu)
+
+You are free to distribute this software under the terms of
+the GNU General Public License.
+
+On Debian systems, the complete text of the GNU General Public
+License can be found in /usr/share/common-licenses/GPL.
